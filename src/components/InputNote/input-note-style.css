@@ -1,0 +1,33 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-itle {
+  width: 100%;
+  text-align: left;
+}
+
+.input label {
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  padding: 0 20px 20px 0;
+}
+
+.input label textarea {
+  width: 100%;
+  height: 250px;
+  padding: 1rem;
+  resize: none;
+  border-radius: 1rem;
+}
+
+.input label button {
+  position: absolute;
+  bottom: 30px;
+  right: -7px;
+}
